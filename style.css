@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+     
+}
+body{
+    background-image: url(/img/yasuo1.jpg);
+    position: fixed; top: 0; left: 0; 
+}
+
+#principal{
+background-color: white;
+float: left;
+height: 1080px;
+width: 500px;
+box-shadow: 10px 5px 5px rgba(37, 37, 37, 0.329);
+border-right: 2px solid;
+
+
+}
+
+ .header{
+    display: flex;
+    margin: 50px;
+    
+ }
+ #logo{
+     padding-right: 100px;
+     
+ }
+ #servidor{
+     padding-left: 150px;
+     font-family: 'Fredoka One', cursive;
+
+ }
+div img{
+    width: 50px;
+    height: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px ;
+    margin-left: 50px;
+}
+
+form h1{
+    font-size: 50px;
+    padding-bottom: 50px;
+    font-family: 'Fredoka One', cursive;
+}
+
+form #logar{
+    width:280px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: rgba(204, 198, 198, 0.486);
+    border-radius: 5px;
+    border: none;
+}
+form #password{
+    width:280px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: rgba(204, 198, 198, 0.486);
+    border-radius: 5px;
+    border: none;
+}
+
+form #logar:hover{
+    background-color: rgba(107, 104, 104, 0.486);
+}
+form #password:hover{
+    background-color: rgba(107, 104, 104, 0.486);
+}
+form div#continue{
+    display: inline;
+    font-size: 15px;
+    font-family: 'Fredoka One', cursive;
+}
+
+form button{
+    clear: both;
+    float: right;
+    width:60px;
+    height:60px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 230px;
+    background-color: rgba(204, 198, 198, 0.486);
+}
+form button:hover{
+    background-color: rgba(107, 104, 104, 0.486);
+}
+
+div #rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 350px;
+    margin-left: 50px;
+    
+}
+div #rodape a{
+    font-family: 'Fredoka One', cursive;
+    padding-bottom: 5px;
+    text-decoration:none; 
+    color: black;
+
+}
+
+
